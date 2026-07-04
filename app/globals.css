@@ -1,0 +1,44 @@
+:root {
+  --blue: #146ef5;
+  --ink: #0b0c0e;
+  --muted: #62666d;
+  --line: #e8e9ec;
+  --surface: #ffffff;
+  --page: #f2f3f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--page);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--page);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  color: white;
+  background: var(--blue);
+}
